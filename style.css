@@ -1,0 +1,80 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Raleway','sans-serif';
+  font-size: 1rem;
+  color: black;
+  max-width: 768px;
+}
+ /*conteneur*/
+.wrapper{
+  width: 90%;
+  margin: 10px auto 0px auto;
+}
+
+/*HEADER*/
+
+.header{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.topbar{
+  display: flex;
+  width: min-content;
+}
+
+.menu ul{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  margin-bottom: 60px;
+  
+}
+
+.menu li{
+  list-style: none;
+}
+
+.menu a{
+  text-decoration: none;
+}
+
+.accomodation{
+  color:#0065fc;;
+  position: relative;
+  right:118px;
+  top: 35px;
+
+}
+
+.activities{
+  position: relative;
+  bottom:-19px;
+  color: black;  
+  top: 54px;
+
+}
+
+.inscription{
+  color:#0065fc;
+  font-weight: bold;
+  transform: translateX(6px);
+  position: absolute;
+}
+
+.logo{
+  margin-bottom: 20px;;
+}
+
+.contenair_line{
+  display: flex;
+  width: 100%;
+}
+
+.line_accomodation{
+  border: 3px #0065fc solid;
+  width: 50%;
+}
