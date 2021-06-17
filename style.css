@@ -5,19 +5,22 @@ body{
   font-family: 'Raleway','sans-serif';
   font-size: 1rem;
   color: black;
-  max-width: 768px;
+  width: 100%;
 }
  /*conteneur*/
 .wrapper{
   width: 90%;
-  margin: 10px auto 0px auto;
+  
 }
 
 /*HEADER*/
 
+/*menu*/
+
 .header{
   display: flex;
   flex-direction: column;
+  margin: 15px 10px 0px 10px;
 
 }
 
@@ -61,7 +64,7 @@ body{
 .inscription{
   color:#0065fc;
   font-weight: bold;
-  transform: translateX(6px);
+  transform: translateX(5px);
   position: absolute;
 }
 
@@ -69,12 +72,3 @@ body{
   margin-bottom: 20px;;
 }
 
-.contenair_line{
-  display: flex;
-  width: 100%;
-}
-
-.line_accomodation{
-  border: 3px #0065fc solid;
-  width: 50%;
-}
