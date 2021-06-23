@@ -1,74 +1,213 @@
-
+/*réglage généraux*/
 body{
   margin: 0px;
   padding: 0px;
   font-family: 'Raleway','sans-serif';
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: black;
   width: 100%;
 }
- /*conteneur*/
-.wrapper{
-  width: 90%;
-  
+
+img{
+  width: 100%;
 }
 
-/*HEADER*/
+/*header*/
 
-/*menu*/
 
 .header{
+  width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 15px 10px 0px 10px;
-
+}
+ /*menu de navigation*/
+.logo{
+  width: 20%;
+  margin-left: 5%;
 }
 
 .topbar{
   display: flex;
-  width: min-content;
+  flex-direction: column;
+  margin-top: 15px;
 }
 
 .menu ul{
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: space-between;
   flex-wrap: wrap-reverse;
-  margin-bottom: 60px;
-  
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  text-align: center;
 }
 
 .menu li{
   list-style: none;
+  width: 50%;
+  padding-bottom: 10px;
+
 }
 
 .menu a{
   text-decoration: none;
 }
 
-.accomodation{
-  color:#0065fc;;
-  position: relative;
-  right:118px;
-  top: 35px;
+.menu li:nth-child(3){
+  transform: translate(188%, -89%);;
+  width: 34%;
+}
 
+.menu ul li:nth-child(1){
+  border-bottom: 3px #0065FC solid;
+}
+
+.menu ul li:nth-child(2){
+  border-bottom: 3px #F2F2F2 solid;
+}
+
+.accomodation{
+  color: #0065FC;
 }
 
 .activities{
-  position: relative;
-  bottom:-19px;
-  color: black;  
-  top: 54px;
-
+  color: black;
 }
 
 .inscription{
-  color:#0065fc;
+  color: #0065FC;
   font-weight: bold;
-  transform: translateX(5px);
-  position: absolute;
 }
 
-.logo{
-  margin-bottom: 20px;;
+/*titre*/
+.title{
+  margin: 20px;
 }
 
+h1{
+  font-size: 1.1rem;
+}
+
+/*search*/
+
+.search_button{
+  display: none;
+  }
+  
+  .search{
+  display: flex;
+  margin: 0px 15px 20px 15px;
+  width: 100%;
+  }
+  
+  .location_pointer{
+  border: 2px transparent solid;
+  background-color: #f2f2f2;
+  padding: 10px;
+  height: 10px;
+  width: 10px;
+  border-radius: 10px 0px 0px 10px;
+  }
+  
+  .city_search{
+  font-weight: bold;
+  padding: 0px 20px;
+  border: 1px #f2f2f2 solid;
+  height: 32px;
+  }
+    
+  .city_search p{
+  margin: 8px;
+  }
+  
+  .icon_mobile{
+  border-style: none;
+  padding: 0px;
+  font-size: 14px;
+  color: white;
+  background-color: #0065fc;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  transform: translateX(-5px);
+  }
+
+  /*filtre*/
+
+.group_filter >p{
+  font-weight: bold;
+  width: 100%;
+  margin-left: 15px;
+}
+
+.group_filter{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.group_filter_1, .group_filter_2, .group_filter_3, .group_filter_4
+{
+  display: flex;
+  align-items: center;
+}
+
+.icon_filter_1,.icon_filter_2, .icon_filter_3, .icon_filter_4{
+  border-radius: 50%;
+  color: #0065fc;
+  border: 1px #deebff solid;
+  width: 33px;
+  height: 33px;
+  font-size: 12px;
+  background-color: #deebff;
+  transform: translateX(28px);
+}
+
+.icon_filter_1 .fas{
+  transform: translate(9px,9px);
+}
+
+.icon_filter_2 .fas{
+  transform: translate(12px, 10px);
+}
+
+.icon_filter_3 .fas{
+  transform: translate(10px, 10px);
+}
+
+.icon_filter_4 .fas{
+  transform: translate(9px, 9px);
+}
+
+.filter_1 p, .filter_2 p, .filter_3 p, .filter_4 p{
+  border: 2px #f2f2f2 solid;
+  border-radius: 45px;
+  padding: 10px 35px;
+  font-weight: bold;
+  height: 10px;
+}
+
+/*info header*/
+.info_header{
+  display: flex;
+  align-items: center;
+  margin: 10px 30px;
+}
+
+.icon_info{
+  color: #0065fc;
+  border: 2px #f2f2f2 solid;
+  width: 22px;
+  height: 22px;
+  border-radius: 45%;
+}
+
+.info_header .fa-info{
+  transform: translate(6px, 4px);
+}
+
+.info_header p{
+  margin: 10px;
+}
+
+  
