@@ -96,7 +96,7 @@ h1{
   
   .search{
   display: flex;
-  margin: 0px 15px 20px 15px;
+  justify-content: center;
   width: 100%;
   }
   
@@ -115,7 +115,7 @@ h1{
   border: 1px #f2f2f2 solid;
   height: 32px;
   }
-    
+
   .city_search p{
   margin: 8px;
   }
@@ -210,4 +210,86 @@ h1{
   margin: 10px;
 }
 
-  
+/*Inversion hébergement et les plus populaires*/
+
+#accomodation{
+  display: flex;
+  flex-direction: column-reverse
+}
+
+/*Les plus populaires*/
+
+
+.accomodation_popular{
+  background-color: #f2f2f2;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.h2_icon_popular{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 10px;
+}
+
+img{
+  width: 100%;
+}
+
+figure{
+  margin: 0px;
+}
+
+h2{
+  font-size: 1rem;
+}
+
+h3{
+  font-size: 0.85rem;
+  margin: 0px;
+  width: 148px;
+}
+
+ /*icon on the right*/
+.fa-chart-line{
+  font-size: 20 px
+}
+
+.accomodation_popular_group{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popular1, .popular2, .popular3{
+  display: flex;
+  width: 245px;
+  margin: 5px;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px;
+}
+
+.accomodation_popular_group img{
+  width: 97px;
+  height: 100px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.accomodation_popular_group figcaption{
+  margin: 5px 0px 5px 8px;
+}
+
+.accomodation_popular_group figcaption p{
+  margin-top: 5px;
+}
+
+.traveler_reviews_7, .traveler_reviews_8, .traveler_reviews_9{
+  color: #0065FC;
+  font-size: 0.7rem;
+  margin-top: 24px;
+}
+
