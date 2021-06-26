@@ -67,7 +67,7 @@ img{
   border-bottom: 3px #F2F2F2 solid;
 }
 
-.accomodation{
+.li_accomodation{
   color: #0065FC;
 }
 
@@ -109,19 +109,15 @@ h1{
   width: 10px;
   border-radius: 10px 0px 0px 10px;
   }
-  
-  .city_search{
+    
+input{
   font-weight: bold;
-  padding: 0px 20px;
   border: 1px #f2f2f2 solid;
   height: 32px;
-  }
+  padding-left: 10px;
+}
 
-  .city_search p{
-  margin: 8px;
-  }
-  
-  .icon_mobile{
+.icon_mobile{
   border-style: none;
   padding: 0px;
   font-size: 14px;
@@ -147,11 +143,12 @@ h1{
   width: 100%;
 }
 
-.group_filter_1, .group_filter_2, .group_filter_3, .group_filter_4
-{
+.group_filter_1, .group_filter_2, .group_filter_3, .group_filter_4{
   display: flex;
   align-items: center;
 }
+
+
 
 .icon_filter_1,.icon_filter_2, .icon_filter_3, .icon_filter_4{
   border-radius: 50%;
@@ -188,6 +185,29 @@ h1{
   height: 10px;
 }
 
+
+/*HOVER*/
+
+.group_filter_1:hover{
+  color: #0065FC;
+  zoom: 110%;
+}
+
+.group_filter_2:hover{
+  color: #0065FC;
+  zoom: 110%;
+}
+
+.group_filter_3:hover{
+  color: #0065FC;
+  zoom: 110%;
+}
+
+.group_filter_4:hover{
+  color: #0065FC;
+  zoom: 110%;
+}
+
 /*info header*/
 .info_header{
   display: flex;
@@ -213,7 +233,7 @@ h1{
 
 /*Inversion hébergement et les plus populaires*/
 
-#accomodation{
+.accomodation{
   display: flex;
   flex-direction: column-reverse
 }
@@ -228,6 +248,7 @@ h1{
   flex-direction: column;
   padding-bottom: 30px;
 }
+
 
 .h2_icon_popular{
 display: flex;
@@ -259,7 +280,7 @@ h3{
 
  /*icon on the right*/
 .fa-chart-line{
-  font-size: 20 px
+  font-size: 20px;
 }
 
 .accomodation_popular_group{
@@ -299,13 +320,19 @@ h3{
 
 /*HÉBERGEMENT*/
 
-.accomodation_marseille h2{
+.accomodation a{
+  text-decoration: none;
+  color: black;
+}
+
+#accomodation_marseille h2{
   margin: 10px;
 }
 
-.accomodation_marseille{
+#accomodation_marseille{
   display: flex;
   flex-direction: column;
+  margin-top: 18px;
 }
 
 .accomodation_group{
@@ -374,6 +401,11 @@ h3{
   flex-direction: column;
 }
 
+#activities a{
+  text-decoration: none;
+  color: black;
+}
+
 #activities h2{
   margin: 10px;
 }
@@ -397,6 +429,10 @@ h3{
   padding: 6px 4px 6px 4px;
   border-radius: 15px;
   box-shadow: 3px 3px 3px 3px #f2f2f2;
+}
+
+.activity_6{
+  margin-bottom: 35px;
 }
 
 .description_activities img{
