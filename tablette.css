@@ -1,0 +1,88 @@
+/*HEADER*/
+.topbar{
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.logo{
+  width: 10%;
+  display: flex;
+}
+
+.menu{
+  display: flex;
+  width: 43%;
+  margin-right: 4%;
+  transform: translateY(13px);
+}
+
+.menu ul{
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.menu ul li:nth-child(1){
+  border-bottom: none;
+    
+}
+
+.menu .li_accomodation{
+  padding: 26px;
+  border-top: 2px #0065FC solid;
+}
+
+.menu ul li:nth-child(2){
+  border-bottom: none;
+}
+
+.menu li:nth-child(1){
+  padding: 0px;
+}
+
+.menu li:nth-child(2){
+  padding: 0px;
+}
+
+.menu li:nth-child(3){
+  transform: none;
+}
+
+.inscription{
+  font-size: 0.8rem;
+}
+
+/*BOUTON RECHERCHE*/
+.search_mobile{
+  display: none;
+}
+
+.search_button{
+  display: block;
+  border: 1px transparent solid;
+  background-color: #0065FC;
+  border-radius: 0px 10px 10px 0px;
+  color: white;
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 0.8rem;
+}
+
+.group_filter >p{
+  width: 30px;
+  margin-top: 23px;
+}
+
+/*ACTIVITES*/
+
+.description_activities{
+  margin: 13px;
+}
+
+
+/*FOOTER*/
+footer{
+  justify-content: center;
+}
+
+.footer{
+  margin: 0px;
+}
