@@ -72,6 +72,10 @@ header, main{
   width: 100%;
 }
 
+#activities h2{
+  padding-left: 20px;
+}
+
 .description_activities{
   display: grid;
   grid-template-columns: 275px 275px 275px 275px;
