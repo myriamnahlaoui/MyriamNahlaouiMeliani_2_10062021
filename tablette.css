@@ -1,4 +1,9 @@
 /*HEADER*/
+header, main{
+  max-width: 1023px;
+  margin: auto;
+}
+
 .topbar{
   justify-content: space-between;
   flex-direction: row;
@@ -7,6 +12,7 @@
 .logo{
   width: 10%;
   display: flex;
+  margin-left: 10px;
 }
 
 .menu{
@@ -23,7 +29,6 @@
 
 .menu ul li:nth-child(1){
   border-bottom: none;
-    
 }
 
 .menu .li_accomodation{
@@ -50,8 +55,18 @@
 .inscription{
   font-size: 0.8rem;
 }
+/*TITRE*/
+
+.title{
+  margin-left: 10px;
+}
 
 /*BOUTON RECHERCHE*/
+
+.search{
+  margin-left: 10px;
+}
+
 .search_mobile{
   display: none;
 }
@@ -69,14 +84,8 @@
 .group_filter >p{
   width: 30px;
   margin-top: 23px;
+  margin-left: 10px;
 }
-
-/*ACTIVITES*/
-
-.description_activities{
-  margin: 13px;
-}
-
 
 /*FOOTER*/
 footer{
