@@ -120,6 +120,10 @@ input{
   padding-left: 10px;
 }
 
+::placeholder{
+  color: black;
+}
+
 .icon_mobile{
   border-style: none;
   padding: 0px;
@@ -222,13 +226,14 @@ input{
 .icon_info{
   color: #0065fc;
   border: 2px #f2f2f2 solid;
-  width: 22px;
-  height: 22px;
-  border-radius: 45%;
+  width: 16px;
+  height: 16px;
+  border-radius: 46%;
 }
 
 .info_header .fa-info{
-  transform: translate(6px, 4px);
+  transform: translate(6px, 0px);
+  font-size: 12px;
 }
 
 .info_header p{
@@ -300,13 +305,20 @@ h3{
   background-color: white;
   padding: 10px 10px 10px 10px;
   border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px #cdcdcd;
+}
+
+.popular1 img{
+  object-position: -27px -2px;
 }
 
 .accomodation_popular_group img{
   width: 97px;
   height: 100px;
   border-radius: 15px 0px 0px 15px;
+  object-fit: cover;
 }
+
 
 .accomodation_popular_group figcaption{
   margin: 5px 0px 5px 8px;
@@ -343,30 +355,28 @@ h3{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 4px;
 
 }
-
+/*IMAGES HEBERGEMENT MARSEILLE*/
 .accomodation_group img{
   width: 245px;
-  height: 104px;
+  height: 86px;
   border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
 }
 
 .accomodation1, .accomodation2, .accomodation3, .accomodation4, .accomodation5, .accomodation6{
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 12px;
   background-color: white;
-  padding: 6px 2px 20px 2px;
+  padding: 6px 2px 10px 2px;
   margin-right: 15px;
   border-radius: 15px;
   box-shadow: 3px 3px 3px 3px #f2f2f2;
 }
 
 .accomodation_group h3{
-  width: 245px;
   margin-top: 5px;
 }
 
@@ -420,13 +430,13 @@ h3{
 
 #activities h3{
   margin-left: 15px;
+  margin-bottom: 10px;
 }
 
 .description_activities{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 10px;
 }
 
 .activity_1, .activity_2, .activity_3, .activity_4, .activity_5, .activity_6{
@@ -434,8 +444,8 @@ h3{
   flex-direction: column;
   margin-top: 12px;
   background-color: white;
-  padding: 6px 4px 20px 4px;
-  margin-right: 15px;
+  padding: 6px 4px 2px 4px;
+  margin-right: 11px;
   border-radius: 15px;
   box-shadow: 3px 3px 3px 3px #f2f2f2;
 }
@@ -448,7 +458,33 @@ h3{
   width: 245px;
   height: 104px;
   border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
 }
+
+.activity_1 img{
+  object-position: 0px -9px;
+}
+
+.activity_2 img{
+  object-position: 0px -110px;
+}
+
+.activity_3 img{
+  object-position: 0px -6px;
+}
+
+.activity_4 img{
+  object-position: 0px -9px;
+}
+
+.activity_5 img{
+  object-position: 0px -6px;
+}
+
+.activity_6 img{
+  object-position: 0px -18px;
+}
+
 
 /*footer*/
 
