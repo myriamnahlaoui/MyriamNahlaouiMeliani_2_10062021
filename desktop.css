@@ -1,0 +1,155 @@
+.logo, .title, .search, .group_filter >p, .info_header{
+  margin-left: 0%;
+}
+
+.menu{
+  margin-right: 0%;
+}
+
+.accomodation{
+  flex-direction: row;
+}
+
+#accomodation_marseille{
+  background-color: #f2f2f2;
+  margin-right: 28px;
+  border-radius: 15px;
+}
+
+header, main{
+  max-width: 1200px;
+}
+
+.search{
+  margin-bottom: 10px;
+}
+
+#accomodation_marseille{
+  margin-top: 0px;
+  padding: 20px;
+}
+
+.accomodation_group img{
+  width: 222px;
+}
+
+
+.accomodation1, .accomodation2, .accomodation3, .accomodation4, .accomodation5, .accomodation6{
+  padding: 4px 4px 9px 4px;
+  margin: 0px 0px 15px 0px;
+  box-shadow: 2px 2px 2px 2px #cdcdcd;
+}
+
+.accomodation_popular{
+  border-radius: 15px;
+  padding-top: 7.5px;
+}
+
+.h2_icon_popular{
+  margin: 0px 20px 0px 10px;
+}
+
+.popular1, .popular2, .popular3{
+  padding: 3px 20px 4px 3px;
+  margin-bottom: 18px;
+}
+
+/*.accomodation_group img{
+  width: 200px;
+  height: 95px;
+}*/
+
+.accomodation_group h3{
+  width: 200px;
+}
+
+.more{
+  font-size: 0.9rem;
+}
+
+#activities{
+  margin-top: 20px;
+  width: 100%;
+}
+
+.description_activities{
+  display: grid;
+  grid-template-columns: 275px 275px 275px 275px;
+  grid-template-rows: 275px 275px;
+  column-gap: 16px;
+  height: 420px;
+}
+
+.description_activities figure, .description_activities img{
+  width: 275px;
+}
+
+.activity_1, .activity_2, .activity_3, .activity_4, .activity_5, .activity_6{
+  padding: 6px 4px 2px 0px;
+}
+
+/*VIEUX PORT*/
+.description_activities a:nth-child(1){
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+}
+
+.activity_1 img{
+  height: 340px;
+  object-position: initial;
+}
+
+/*FORT DE POMÈGUES*/
+.activity_2 img{
+  height: 150px;
+  object-position: 0px -84px;
+}
+
+/*ILES DU FRIOUL*/
+
+.description_activities a:nth-child(3){
+grid-column-start: 2;
+grid-row-start: 2;
+grid-row-end: 3;
+}
+
+figure.activity_3{
+  margin-top: -39px;
+}
+
+/*PARC NATIONAL DES CALANQUES*/
+.description_activities a:nth-child(4){
+grid-column-start: 3;
+grid-row-start: 1;
+grid-row-end: 3;
+}
+
+.activity_4 img{
+  height: 340px;
+  object-position: bottom;
+}
+
+.activity_5 img{
+  height: 115px;
+  object-position: 0px -2px;
+}
+
+.activity_6 img{
+  height: 130px;
+}
+
+figure.activity_6{
+  margin-top: -67px;
+}
+
+figure.activity_1, figure.activity_2, figure.activity_4, figure.activity_5{
+  margin-top: 0px;
+}
+
+
+/*FOOTER*/
+.footer{
+  width: 100%;
+  justify-content: space-around;
+}
