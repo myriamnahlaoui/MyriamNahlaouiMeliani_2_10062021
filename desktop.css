@@ -1,3 +1,8 @@
+header, main{
+  max-width: 1200px;
+}
+
+/*header*/
 .logo, .title, .search, .group_filter >p, .info_header{
   margin-left: 0%;
 }
@@ -6,6 +11,12 @@
   margin-right: 0%;
 }
 
+/*bouton recherche*/
+.search{
+  margin-bottom: 10px;
+}
+
+/*section hébergement*/
 .accomodation{
   flex-direction: row;
 }
@@ -14,14 +25,6 @@
   background-color: #f2f2f2;
   margin-right: 28px;
   border-radius: 15px;
-}
-
-header, main{
-  max-width: 1200px;
-}
-
-.search{
-  margin-bottom: 10px;
 }
 
 #accomodation_marseille{
@@ -33,13 +36,13 @@ header, main{
   width: 222px;
 }
 
-
 .accomodation1, .accomodation2, .accomodation3, .accomodation4, .accomodation5, .accomodation6{
   padding: 4px 4px 9px 4px;
   margin: 0px 0px 15px 0px;
   box-shadow: 2px 2px 2px 2px #cdcdcd;
 }
 
+/*section les plus populaires*/
 .accomodation_popular{
   border-radius: 15px;
   padding-top: 7.5px;
@@ -54,11 +57,6 @@ header, main{
   margin-bottom: 18px;
 }
 
-/*.accomodation_group img{
-  width: 200px;
-  height: 95px;
-}*/
-
 .accomodation_group h3{
   width: 200px;
 }
@@ -67,6 +65,7 @@ header, main{
   font-size: 0.9rem;
 }
 
+/*section activités à Marseille*/
 #activities{
   margin-top: 20px;
   width: 100%;
@@ -92,7 +91,6 @@ header, main{
   padding: 6px 4px 2px 0px;
 }
 
-/*VIEUX PORT*/
 .description_activities a:nth-child(1){
   grid-row-start: 1;
   grid-row-end: 3;
@@ -104,13 +102,10 @@ header, main{
   object-position: initial;
 }
 
-/*FORT DE POMÈGUES*/
 .activity_2 img{
   height: 150px;
   object-position: 0px -84px;
 }
-
-/*ILES DU FRIOUL*/
 
 .description_activities a:nth-child(3){
 grid-column-start: 2;
@@ -122,7 +117,6 @@ figure.activity_3{
   margin-top: -39px;
 }
 
-/*PARC NATIONAL DES CALANQUES*/
 .description_activities a:nth-child(4){
 grid-column-start: 3;
 grid-row-start: 1;

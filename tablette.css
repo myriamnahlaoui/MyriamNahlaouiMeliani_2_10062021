@@ -1,4 +1,4 @@
-/*HEADER*/
+/*header*/
 header, main{
   max-width: 1023px;
   margin: auto;
@@ -14,6 +14,8 @@ header, main{
   display: flex;
   margin-left: 10px;
 }
+
+/*menu*/
 
 .menu{
   display: flex;
@@ -55,13 +57,13 @@ header, main{
 .inscription{
   font-size: 0.8rem;
 }
-/*TITRE*/
+/*titre*/
 
 .title{
   margin-left: 10px;
 }
 
-/*BOUTON RECHERCHE*/
+/*bouton recherche*/
 
 .search{
   margin-left: 10px;
@@ -81,13 +83,14 @@ header, main{
   font-size: 0.8rem;
 }
 
+/*filtre*/
 .group_filter >p{
   width: 30px;
   margin-top: 23px;
   margin-left: 10px;
 }
 
-/*FOOTER*/
+/*footer*/
 footer{
   justify-content: center;
 }
