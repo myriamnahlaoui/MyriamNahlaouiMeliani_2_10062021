@@ -193,22 +193,22 @@ input{
 /*hover*/
 .group_filter_1:hover{
   color: #0065FC;
-  zoom: 110%;
+  transform: scale(1.1);
 }
 
 .group_filter_2:hover{
   color: #0065FC;
-  zoom: 110%;
+  transform: scale(1.1);
 }
 
 .group_filter_3:hover{
   color: #0065FC;
-  zoom: 110%;
+  transform: scale(1.1);
 }
 
 .group_filter_4:hover{
   color: #0065FC;
-  zoom: 110%;
+  transform: scale(1.1);
 }
 
 /*info header en dessous des filtres*/
