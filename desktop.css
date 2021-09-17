@@ -34,6 +34,7 @@ header, main{
 
 .accomodation_group img{
   width: 222px;
+  height: 86px;
 }
 
 .accomodation1, .accomodation2, .accomodation3, .accomodation4, .accomodation5, .accomodation6{
@@ -48,11 +49,16 @@ header, main{
   padding-top: 7.5px;
 }
 
+.accomodation_popular_group figcaption{
+  margin: 5px 0px 0px 8px;
+}
+
 .h2_icon_popular{
   margin: 0px 20px 0px 10px;
 }
 
 .popular1, .popular2, .popular3{
+  width: 245px;
   padding: 3px 20px 4px 3px;
   margin-bottom: 18px;
 }
@@ -97,6 +103,8 @@ header, main{
 
 }
 
+.description_activities img{
+}
 .activity_1 img{
   height: 340px;
   object-position: initial;
@@ -104,7 +112,7 @@ header, main{
 
 .activity_2 img{
   height: 150px;
-  object-position: 0px -84px;
+  object-position: 0px -111px;
 }
 
 .description_activities a:nth-child(3){
@@ -114,7 +122,11 @@ grid-row-end: 3;
 }
 
 figure.activity_3{
-  margin-top: -39px;
+  margin-top: -48px;
+}
+
+.activity_3 img{
+  object-position: 0px 0px;
 }
 
 .description_activities a:nth-child(4){
@@ -135,6 +147,7 @@ grid-row-end: 3;
 
 .activity_6 img{
   height: 130px;
+  object-position: 0px -17px;
 }
 
 figure.activity_6{

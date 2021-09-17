@@ -1,0 +1,85 @@
+/*bouton de recherche*/
+
+.search_button{
+  display: none;
+  }
+
+.search{
+  margin: auto;
+  width: 310px;
+  margin: 15px auto 15px auto;
+  }
+
+.city_search{
+  width: 260px;
+  border: 1px #f2f2f2 solid;
+}
+
+.location_pointer{
+  height: 20px;
+  width: 20px;
+  }
+
+.fa-map-marker-alt{
+  margin: 5px;
+}
+
+input{
+  border: none;
+  height: 40px;
+}
+
+.icon_mobile{
+  width: 43px;
+  height: 43px;
+  }
+
+.popular1, .popular2, .popular3{
+  width: 310px;
+  padding: 5px;
+}
+
+.accomodation_popular_group figcaption{
+  margin: 8px 0px 0px 15px;
+}
+
+/*images section hébergement à Marseille*/
+.accomodation_group img{
+  width: 310px;
+  height: 98px;
+  
+}
+
+.more{
+  margin-left: 10px;
+}
+
+
+.description_activities img{
+  width: 310px;
+  height: 114px;
+}
+
+.activity_1 img{
+  object-position: 0px -25px;
+}
+
+.activity_2 img{
+  object-position: 0px -155px;
+}
+
+.activity_3 img{
+  object-position: 0px -26px;
+}
+
+.activity_4 img{
+  object-position: 0px -26px;
+}
+
+.activity_5 img{
+  object-position: 0px -24px;
+}
+
+.activity_6 img{
+  object-position: 0px -38px;
+}
