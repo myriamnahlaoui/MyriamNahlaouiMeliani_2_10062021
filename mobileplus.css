@@ -34,6 +34,12 @@ input{
   height: 43px;
   }
 
+  
+.info_header .fa-info{
+transform: translate(5px, 0px);
+font-size: 12px;
+}
+
 .popular1, .popular2, .popular3{
   width: 310px;
   padding: 5px;

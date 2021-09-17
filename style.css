@@ -152,6 +152,7 @@ input{
 .group_filter_1, .group_filter_2, .group_filter_3, .group_filter_4{
   display: flex;
   align-items: center;
+  height: 50px;
 }
 
 .icon_filter_1,.icon_filter_2, .icon_filter_3, .icon_filter_4{
@@ -226,8 +227,8 @@ input{
 }
 
 .info_header .fa-info{
-  transform: translate(6px, 0px);
-  font-size: 12px;
+  transform: translate(3px, 0px);
+  font-size: 10px;
 }
 
 .info_header p{
